@@ -14,6 +14,7 @@ Source:		%{realname}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:	perl-Test-Exception
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-root
 
 %description
 This module in an fully object-oriented implementation of a simple n-ary tree.
