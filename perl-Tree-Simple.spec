@@ -1,7 +1,7 @@
 %define realname Tree-Simple
 %define name perl-%{realname}
 %define version 1.18
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary:	A simple tree object
 Name:		%{name}
