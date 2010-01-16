@@ -16,7 +16,7 @@ BuildArch:	noarch
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 %description
-This module in an fully object-oriented implementation of a simple n-ary tree.
+This module is a fully object-oriented implementation of a simple n-ary tree.
 
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
