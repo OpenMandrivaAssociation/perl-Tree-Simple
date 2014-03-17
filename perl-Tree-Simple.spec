@@ -1,5 +1,5 @@
 %define upstream_name    Tree-Simple
-%define upstream_version 1.22
+%define upstream_version 1.23
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	A simple tree object
 License:	Artistic/GPL
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Tree/Tree-Simple-%{upstream_version}.tgz
+Source0:	http://www.cpan.org/modules/by-module/Tree/%{upstream_name}-%{upstream_version}.tgz
 
 BuildRequires:	perl-Test-Exception
 BuildRequires:	perl-devel
@@ -23,10 +23,10 @@ This module in an fully object-oriented implementation of a simple n-ary tree.
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-%{__make}
+%make
 
 %check
-%{__make} test
+%make test
 
 %install
 %makeinstall_std
@@ -73,5 +73,6 @@ This module in an fully object-oriented implementation of a simple n-ary tree.
 
 * Wed May 04 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 1.14-1mdk
 - First Mandriva release
+
 
 
