@@ -13,6 +13,7 @@ Source0:	http://www.cpan.org/modules/by-module/Tree/%{upstream_name}-%{upstream_
 
 BuildRequires:	perl-Test-Exception
 BuildRequires:	perl-devel
+BuildRequires:	perl(Test::Version)
 BuildArch:	noarch
 
 %description
