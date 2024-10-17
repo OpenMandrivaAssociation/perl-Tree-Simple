@@ -8,7 +8,7 @@ Release:    3
 Summary:	A simple tree object
 License:	Artistic/GPL
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/Tree/%{upstream_name}-%{upstream_version}.tgz
 
 BuildRequires:	perl-Test-Exception
