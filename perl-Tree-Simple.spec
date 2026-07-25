@@ -1,15 +1,15 @@
 %define upstream_name    Tree-Simple
-%define upstream_version 1.23
+%define upstream_version 1.34
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    3
+Version:    %{upstream_version}
+Release:    1
 
 Summary:	A simple tree object
 License:	Artistic/GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Tree/%{upstream_name}-%{upstream_version}.tgz
+Url:		https://github.com/ronsavage/Tree-Simple
+Source0:	https://cpan.metacpan.org/authors/id/R/RS/RSAVAGE/Tree-Simple-1.34.tgz-%{upstream_version}.tgz
 
 BuildRequires:	make
 BuildRequires:	perl-Test-Exception
